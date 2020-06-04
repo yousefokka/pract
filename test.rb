@@ -1,3 +1,5 @@
+
+=begin
 #used puts to print and new line 
 puts "hello" 
 p "3a1sa"
@@ -99,3 +101,19 @@ a = [1 ,2,3,4]
  puts "n/"
 
  puts "this last update"
+
+#used to  known data type kind  
+ x= "yousef" 
+ puts x.class
+ =end
+ 
+
+=end 
+ x = 5
+if x = 5 
+  puts "I can play video games"
+end
+
+
+
+

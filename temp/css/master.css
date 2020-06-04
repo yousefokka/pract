@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* start Landing page */
+.Landing-page {
+    min-height:100vh;
+    background-image: url("../image/90-906427_1920x1080-business-man-working-and-writing-in-laptop.jpg");
+    background-size: cover;
+}
+.Landing-page .overlay{
+    background-color: #0000006e;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header-area {
+    position: absolute;
+    z-index: 2;
+    color: aliceblue;
+    display: flex;
+}
+.header-area .logo{
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+}
+.header-area .link{
+ list-style: none;
+ width: 100%;
+ text-align: right;
+ padding-left: 0;
+ padding-right: 20px;
+ font-size: 15px;
+}
+.header-area .link li{
+    display: inline-block;
+    margin-left: 10px;
+}
+/* End Landing Page */
