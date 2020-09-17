@@ -8,3 +8,8 @@ while n > 0
         n -=1
 end
 puts c
+
+
+
+
+
